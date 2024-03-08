@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header">
+            <div class="logo">RECA</div>
+            <nav class="part2">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="search">
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Search products by name">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+    </section>
+
+
+
+    <section class="product-showcase">
+        <div class="container">
+            <h2>Products</h2>
+            <div class="slider">
+
+
+              <div class="product-card">
+                <img src="./Images/lap.jpg" alt="Product Image">
+                <div class="product-info">
+                    <h3>Product 1</h3>
+                    <p>$2000.0</p>
+                    <button>Add to Cart</button>
+                </div>
+              </div>
+            <div class="product-card">
+              <img src="./Images/lap.jpg" alt="Product Image">
+              <div class="product-info">
+                  <h3>Product 2</h3>
+                  <p>$1290.00</p>
+                  <button>Add to Cart</button>
+              </div>
+           </div>
+
+          <div class="product-card">
+            <img src="./Images/lap.jpg" alt="Product Image">
+            <div class="product-info">
+                <h3>product 3</h3>
+                <p>$1900.00</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+                  
+         
+        <div class="product-card">
+          <img src="./Images/lap.jpg" alt="Product Image">
+          <div class="product-info">
+              <h3>product 4</h3>
+              <p>$1400.00</p>
+              <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container footer">
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
